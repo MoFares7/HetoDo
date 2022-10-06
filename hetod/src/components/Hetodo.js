@@ -6,7 +6,7 @@ import Social from './social';
 class Hetodo extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <Header />
                 <Body />
                 <Social />
