@@ -1,10 +1,12 @@
-
+import React, { Component } from 'react'
 import './App.css';
+import Hetodo from './components/Hetodo';
 
-function App() {
-  return (
-  <h1> HEllo World</h1>
-  );
+class App extends Component {
+  render() {
+    return (
+   <Hetodo />
+    );
+  }
 }
-
 export default App;
