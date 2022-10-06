@@ -9,7 +9,7 @@ function Social() {
             </li>
 
             <li className="list-group-item">
-                <input type="checkbox" id="Twiter" />
+                <input type="checkbox" id="twiter" />
                 <label for="twiter">Twaiter</label>
             </li>
 
