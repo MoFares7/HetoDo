@@ -2,7 +2,9 @@ import React from "react";
 
 function Body() {
     return (
-        <p> this is my account in social medial </p>
+        <p style={{
+            color:'red',
+        }}> this is my account in social medial </p>
 
     );
 }
