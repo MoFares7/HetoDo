@@ -1,9 +1,9 @@
 h1 {
-    color: blueviolet;
+    color: whitesmoke;
     font-size: 70;
 }
 
 #root {
-    background-color: rgb(193, 217, 217);
+    background-color: dimgray;
     border-radius: 0.5rem;
 }
