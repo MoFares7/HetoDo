@@ -11,4 +11,45 @@ label {
 img {
     max-width: '100%';
     padding-top: 10px;
+    align-items: center;
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.work {
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.Phone {
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.Email {
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.Website {
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
 }
