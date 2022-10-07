@@ -4,7 +4,9 @@ import OurTeamItem from "./OurTeamItems";
 function Team() {
 
     return (
-        <div className="bg-dark">
+
+
+        <div className="row ">
             <OurTeamItem
                 name='Fares dabbas'
                 work='Full Stack Developer'
