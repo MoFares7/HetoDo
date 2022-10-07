@@ -1,22 +1,12 @@
 import React from "react";
+import SocialItems from "./socialItems";
 
 function Social() {
     return (
         <ul className="list-group">
-            <li className="list-group-item">
-                <input type="checkbox" id="facebook" />
-                <label for="facebook">Facebook</label>
-            </li>
-
-            <li className="list-group-item">
-                <input type="checkbox" id="twiter" />
-                <label for="twiter">Twaiter</label>
-            </li>
-
-            <li className="list-group-item">
-                <input type="checkbox" id="github" />
-                <label for="github">Github</label>
-            </li>
+            <SocialItems media='Facebook' id='facebook' />
+            <SocialIte media='Youtube' id='youtube' />
+            <SocialItems media='Github' id='github' />
         </ul>
     );
 }
