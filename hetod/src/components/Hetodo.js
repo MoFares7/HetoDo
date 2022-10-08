@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import Header from './Header';
-import Body from './body';
-import Social from './social';
-import Team from './OurTeam'
+import Header from './My_website/Header';
+import Team from './Team/OurTeam';
+
 
 class Hetodo extends Component {
     render() {
         return (
             <div className='container'>
                 <Header />
-                <Team />
+               <Team />
             </div>
         );
     }
