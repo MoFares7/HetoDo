@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 
-class OurTeamItem extends Component() {
+class OurTeamItem extends Component {
 
     render() {
         return (
             <div className="col-md-4 col-sm-6">
                 <div className="card">
                     <div className="card-header">
-                        <img style={{ maxWidth: '100%' }} src={this.props.image}></img>
+                        <img style={{ maxWidth: '100%' }}
+                            src={this.props.image}
+                        alt='mo.com'
+                        ></img>
                     </div>
                     <div className="card-body" style={{
                         background: this.props.website
