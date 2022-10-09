@@ -53,3 +53,9 @@ h3 {
     text-align: center;
     margin: auto;
 }
+
+.row {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

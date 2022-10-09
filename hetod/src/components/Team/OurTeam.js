@@ -8,11 +8,16 @@ class Team extends Component {
     constructor() {
         super()
         this.state = {
-           memberInfo: memberInfo
+            memberInfo: memberInfo,
+            members: [],
         }
+        this.clickEvent = this.clickEvent.bind(this)
     }
-    mapping(x) {
-        const members = x.map(
+
+    clickEvent() {
+     
+        this.state.members.push(this.state.memberInfo[1])
+        this.newMembers = this.state.members.map(
             member =>
                 <OurTeamItem
                     key={member.id}
@@ -22,20 +27,16 @@ class Team extends Component {
                     email={member.email}
                     website={member.website}
                 />);
-        return members;
-
     }
 
     render() {
-
         return (
             <div className="row ">
-                {this.mapping(this.state.memberInfo)}
+                <button className="btn btn-primary btn-lg btn-block" onClick={this.clickEvent}>Add Employee</button>
+                {this.members}
             </div>
         )
     }
-
-
 }
 
 export default Team;
