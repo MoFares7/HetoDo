@@ -7,8 +7,8 @@ class Hetodo extends Component {
     render() {
         return (
             <div className='container'>
-            
-               <Team />
+                <Header />
+                <Team />
             </div>
         );
     }
